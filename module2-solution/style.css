@@ -28,6 +28,7 @@
     margin-bottom: auto;
   }
   .s1 {
+    color : black;
     float: right;
     width: 100px;
     padding: 5px;
@@ -49,7 +50,7 @@
     text-align: center;
     font-size: 125%;
     font-weight: bold;
-    background-color: #ff0000;
+    background-color: #FF0000;
     
   }
   .s3 {
@@ -110,4 +111,3 @@
       width: 100%;
     }
   }
-</style>*/
