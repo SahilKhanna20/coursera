@@ -69,7 +69,7 @@ $(function () {
       homeHtmlUrl,
       function (homeHtml) {
         // STEP 2: Call chooseRandomCategory
-        var chosenCategory = chooseRandomCategory(categories);
+        var chosenCategory = chooseRandomCategory(categories).short_name;
 
         // STEP 3: Substitute {{randomCategoryShortName}} in the home html snippet
         var homeHtmlToInsertIntoMainPage = insertProperty(homeHtml, "randomCategoryShortName", chosenCategory.short_name);
